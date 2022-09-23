@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"href="{% static 'favicon.ico' %}">
+    
+    <title>Crack IELTS with Team SSD </title>
+    @media print{
+    <style>
+      *{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fig{
+  color:gold;
+
+}
+/*this for navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color: rgb(143, 4, 4);
+    position:relative
+    
+    
+    
+  }
+  .about{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .paraabout{
+    color:gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+  }
+  
+  .topnav a {
+    
+    float: left;
+    color: #0f0101;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(214, 9, 9);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(17, 1, 1);
+  }
+  .ved{
+    align-items: center;
+    align-self: start;
+  }
+
+    </style>
+    }
+   
+    
+
+</head>
+<body>
+   {% load static %}
+ 
+  <!-- this is the social media handels -->
+    <img  src="{% static 'ielts3.png' %}" width="196px">
+    <a href="https://www.facebook.com/profile.php?id=100085360034154"><img src="{% static 'fb.jpeg' %}" alt="facebook" width="60px" height="60px" align="right" hspace="30px"></a>
+    <a href="https://instagram.com/teamssd2022?igshid=YmMyMTA2M2Y=" align="right"><img src="{% static 'Red-Instagram-Logo.png' %}" width="60px" height="60px" align="right" hspace="30px" class="button"></a>
+    <a href="https://www.youtube.com/channel/UCyHp9t86PBwqiUSDS1r-GyQ" align="right"><img src="{% static 'images (2).jpeg' %}" width="90px" height="80px" align="right" hspace="30px" alt="youtube"></a>
+    <hr>
+    <h1 align="center">Take the first step to Learn IELTS with US</h1>
+    
+    <!--this is for slideshow -->
+    
+    <!-- this for navigation bar-->
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#studymaterial">Study Materials</a>
+      <a href="#bookatest">JOIN US</a>
+      
+    </div>
+    <br>
+    <br>
+    <!-- this is for slideshow -->
+    <style>
+      * {box-sizing: border-box;}
+      body {font-family: Verdana, sans-serif;}
+      .mySlides {display: none;}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }
+      </style>
+      </head>
+      <body>
+      
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
+      <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+       
+        <img src="{% static 'slide1.jpg' %}" style="width:100%">
+        
+      </div>
+      
+      <div class="mySlides fade">
+   
+        <img src="{% static 'slide6.jpg' %}" style="width:100%">
+   
+      </div>
+      
+      <div class="mySlides fade">
+    
+        <img src="{% static 'slide3.jpg' %}" style="width:100%">
+   
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      
+      <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+    
+    <!--this is where IELTS are allowed-->
+    <span id="home" class="about">
+      <h1> Home</h1>
+    <h1 align="center">Where can IELTS take you</h1>
+    <figure align="center" class="fig">
+      <a href="/usa"><img src="{% static 'usa.png' %}" alt="usa"></a>
+      <figcaption><b>UNITED STATES</b></figcaption>
+     <a href="/nick"><img src="{% static 'new-zealand.png' %}" alt="new-zealand"></a>
+     <figcaption><b>NEW-ZEALAND</b></figcaption><a href="/uk"><img src="{% static 'united-kingdom.png' %}" alt="uk "></a>
+     <figcaption class="button"><b>UNITED KINGDOM</b></figcaption><a href="/australia"><img src="{% static 'australia.png' %}" alt="australia"></a>
+    <figcaption class="button"><b>AUSTRALIA</b></figcaption>
+    </figure>
+    </span>
+    <hr>
+
+<span id="news" class="about">
+    <h2 align="center"> News</h2>
+    <h3>IELTS Online is now available in select countries and territories around the world.</h3>
+    <p class="paraabout">The world’s most trusted English language test can now be taken from the convenience of home in select countries and territories around the world.
+
+      Suitable for people looking to demonstrate their English language ability for study purposes, IELTS Online is the same academic test that’s accepted and trusted by organisations around the world.
+      
+      IELTS Online has the same timing, content and structure as the IELTS Academic tests taken in centres, whether on paper or on a computer academic test. However, it offers test-takers more choice on where they take it.</p>
+      <p class="paraabout">The IELTS partners are committed to giving test takers choice around how and where they take their IELTS test, including those who cannot attend a test centre.
+
+        IELTS Online assesses English-language proficiency across four key skills: Listening, Reading, Writing and Speaking. The Speaking test is conducted one-to-one with an accredited IELTS examiner, via a live video call.
+         
+        Like the computer and paper options of the test, IELTS Online maintains the focus on human conversation, empowering test takers to demonstrate their true ability to communicate with real people.
+         
+        IELTS Online is currently running one session per week in select countries. Session frequency and locations will continue to increase over the coming months. </p>
+        <h3>About IELTS Online</h3>
+        <p class="paraabout">IELTS Online is the same as the IELTS Academic test. It has the same content and features as IELTS on paper and IELTS on computer taken in a test centre.
+
+          IELTS Online is suitable for academic purposes. It is not currently accepted for migration. </p>
+          <h3>Reassuringly secure</h3>
+          <P class="paraabout">ELTS Online is protected by multi-layered security before, during and after the test. During the test, a combination of human and artificial intelligence (AI) invigilation is managed by IELTS. It allows us to monitor test takers’ activity and perform identity checks.</P>
+          <h3>Same test of four skills delivered by humans for humans</h3>
+          <p class="paraabout">In IELTS Online test the Listening, Reading and Writing questions are taken the same way as with IELTS on computer. The Speaking test will still be with a human examiner and happens via an online video call.  </p>
+          <h3>Receive IELTS Online results within 3-6 days</h3>
+          <p class="paraabout">Test takers receive your results 3-6 days after taking IELTS Online. All tests are marked by trained IELTS examiners.   </p>
+
+</span>
+<hr>
+
+<hr>
+<span id="about" class="about">
+    <h2 align="center">About</h2>
+    <h3>What is IELTS ?</h3>
+    <p class="paraabout">The International English Language Testing System (IELTS) is designed to help you work, study or migrate to a country where English is the native language. This includes countries such as Australia, Canada, New Zealand, the UK and USA.</p>
+    <p class="paraabout">Your ability to listen, read, write and speak in English will be assessed during the test. IELTS is graded on a scale of 1-9. </p>
+    <p class="paraabout">IELTS is jointly owned by the British Council, IDP: IELTS Australia and Cambridge English.</p>
+    <h3>Why take IELTS ?</h3>
+    <p class="paraabout">If you are looking to work, live or study in an English-speaking country, then you must be able to demonstrate a high level of English language ability.
+
+      English is the third most spoken language in the world, with 379 million speakers worldwide.</p>
+      <p class="paraabout">Being able to communicate in the native language of the country you wish to work or study in, has a wide range of benefits. It is also essential for job opportunities as well as integration into the community.</p>
+      <p class="paraabout">IELTS is the most popular test for those looking to migrate to Australia, Canada, New Zealand and the UK. It is globally recognised by more than 11,000 employers, universities, schools and immigration bodies including 3,400 institutions in the USA.</p>
+      <h3>What IELTS score do I need?</h3>
+      <p class="paraabout">The higher you can score in your IELTS, reflects a better understanding and ability to communicate in English. Each immigration body, university, workplace or institution will have specific IELTS score requirements. The score you need will depend on what you are looking to do in the country, i.e work or study. </p>
+      <h3>How IELTS is developed?</h3>
+      <p class="paraabout">IELTS is developed to provide a fair and accurate assessment of English language proficiency.
+
+        Test questions are developed by language specialists from Australia, Canada, New Zealand, the UK and the USA. The test covers four sections: Listening, Reading, Writing and Speaking. 
+        
+        IELTS test content reflects everyday situations. It is unbiased and fair to all test takers from all backgrounds.</p>
+        <figure align="center"><img src="{% static 'aboutielts.jpg' %}"  ><figcaption><b>SCORE CARD</b></figcaption></figure>
+        
+</span>
+<hr>
+    <br>
+    <br>
+    <!-- this for reference paper-->
+    <style>
+      /* this is for navaiagtion*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* this is for signup */
+  .enjoy-css {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    padding: 0 22px;
+    border: 4px solid rgb(255,255,255);
+    font: normal normal bold 20px/50px Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #FFAE00;
+    align-self: baseline;
+    margin: auto;
+    align-self: center;
+    right: -850px;
+    
+  }
+  
+  .enjoy-css:hover {
+    color: #FFAE00;
+    background: #ffffff;
+    text-shadow: 1px 1px 9px rgba(18,87,234,0.7) ;
+  }
+  
+    </style>
+    <span id="studymaterial" class="about">
+    <a href="/refrence"><div class="enjoy-css" align="center">Study Materials</div></a>
+</span>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    
+    
+    <!--this for registration-->
+    <!--<link rel="stylesheet" href="style2.css"> -->
+    <style>
+      .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* this is for signup */
+  .enjoy-css {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    padding: 0 22px;
+    border: 4px solid rgb(255,255,255);
+    font: normal normal bold 20px/50px Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #FFAE00;
+    align-self: baseline;
+    margin: auto;
+    align-self: center;
+    right: -850px;
+    
+  }
+  
+  .enjoy-css:hover {
+    color: #FFAE00;
+    background: #ffffff;
+    text-shadow: 1px 1px 9px rgba(18,87,234,0.7) ;
+  }
+    </style>
+    <span id="bookatest" class="about" align="center">
+     <a href="/signup"><div class="enjoy-css" align="center">JOIN US</div>
+    </a>
+    </span>
+</body>
+<br>
+<br>
+
+<!-- this for footer-->
+<span id="contact" class="about">
+<style>
+  body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+ *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+/*background-color: #24262b;*/
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(15, 2, 2, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #f00c0c;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+</style>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">our services</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">affiliate program</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+        
+          <li><a href="/payment">payment options</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <i><a href="https://twitter.com/teamssd3"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
+          <i><a href="https://instagram.com/teamssd2022?igshid=YmMyMTA2M2Y="><i ><ion-icon name="logo-instagram"></ion-icon></i></a>
+          <i><a href="https://www.youtube.com/channel/UCyHp9t86PBwqiUSDS1r-GyQ"><i ><ion-icon name="logo-youtube"></ion-icon>
+          </i></a>
+          <i><a href="https://www.facebook.com/profile.php?id=100085360034154"><i ><ion-icon name="logo-facebook"></ion-icon>
+          </i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <p class="footer-col">© Copyright, Team SSD</p>
+  <p class="footer-col"><address> Mahayogi Vemana Road ,
+    Kormangala,
+  
+  Bengaluru,Karnataka-560030</address></p>
+
+</span>
+</footer>
+</html>

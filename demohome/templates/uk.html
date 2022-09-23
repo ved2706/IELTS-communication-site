@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK</title>
+  <link rel="icon"href="{% static 'favicon.ico' %}">
+    
+</head>
+<body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <img  src="{% static 'ielts3.png' %}" width="196px">
+  <div style="background:rgba(0,0,0,0.7)">
+    <h1 class="head" style="font-size: 500%;" align="center">
+      UNITED KINGDOM
+  </h1>
+  <h1 class="head" style="font-size: 300%;">
+    IELTS tests for UK Visas and Immigration
+
+    </h1>
+    <p style="font-size:200%;" class="para">
+       <b> IELTS Academic </b>,<b> IELTS General Training </b>and <b>IELTS Life Skills</b> are accepted by 
+        the UK Visas and immigration (UKV1) as proof of English proficiency for those wishing to live ,work and study in UK.  
+    </p>
+    <p style="font-size:200%;" class="para">
+        <b> IELTS tests for UK Visas and immigration </b> are managed by the IELTS Partners, which comprises The British Council, IDP: IELTS Australia and Cambridge English.
+    </p>
+    <h2 style=" font-size: 300%;" class="head">
+        IELTS for a Tier 4 Students Visa ( without a pressional )
+        </h2>
+        <p style=" font-size: 200%;" class="para">
+            If you are applying for a Tier 4 Student Visa to enter directly onto a bachelor or postgraduate degree at a university that is a Tier 4 sponsor,you must meet the English language level set by the institution .
+             All british universities and colleges accept IELTS results . Tier 4 Students Visa applications can apply to the UK universities with an IELTS result from more than 1,600 IELTS test locations worldwide . Plese note that some institutions may have additional requirements .  
+        </p>
+        <h3 style="font-size:300%;" class="head"> 
+            IELTS for UKVI (Academic) delivered on computer .
+
+        </h3>
+        <p style=" font-size: 200%;"class="para">
+            A limited number of test centres offer the IELTS for UKVI (Academic) on computer.
+           <b>Please  note:</b> You can either book IELTS for UKVI online, or you can also download the booking from and register for the test at the test centre.
+
+        </p>
+        <p style=" font-size: 200%;" class="para">
+            IELTS UKVI Decison-Making document <a href="{% static "ukdecision.pdf" %}" class="click">click on this </a>
+        </p>
+
+
+  </div>
+    
+    
+    <style>
+      .head{
+ color: red;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url({% static "uk1.webp"%});
+    
+   }
+.para{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.click{
+  color:cyan;
+}
+    </style>
+        
+
+
+    
+
+</body>
+<!-- this for footer-->
+<!-- this for footer-->
+<span id="contact" class="about">
+  <style>
+    body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+   *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+  /*background-color: #24262b;*/
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(15, 2, 2, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #f00c0c;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  </style>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+          
+            <li><a href="/payment">payment options</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <i><a href="https://twitter.com/teamssd3"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
+            <i><a href="https://instagram.com/teamssd2022?igshid=YmMyMTA2M2Y="><i ><ion-icon name="logo-instagram"></ion-icon></i></a>
+            <i><a href="https://www.youtube.com/channel/UCyHp9t86PBwqiUSDS1r-GyQ"><i ><ion-icon name="logo-youtube"></ion-icon>
+            </i></a>
+            <i><a href="https://www.facebook.com/profile.php?id=100085360034154"><i ><ion-icon name="logo-facebook"></ion-icon>
+            </i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+  </footer>
+</html>

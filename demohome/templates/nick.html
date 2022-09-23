@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>NEW ZEALAND</title>
+    <link rel="icon"href="{% static 'favicon.ico' %}">
+
+    
+    <style>
+      .head{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: url({% static "new.jpeg"%});
+    
+   }
+.muth{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.kulli{
+    color: cyan;
+}
+    </style>
+</head>
+
+<body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <img  src="{% static 'ielts3.png' %}" width="196px">
+  <div style="background:rgba(0,0,0,0.7)">
+    <h1 class="head" style="font-size: 500%;" align="center">
+      NEW ZEALAND
+  </h1>
+  <h2 class="head" style="font-size: 300%">
+   Your journey to New zealand begins with IELTS   
+  </h2>
+  <p style="font-size: 200%" class="muth">
+      IELTS is a high stakes English test for anyone looking to live, work or study in New Zealand. Immigration New Zealand accepts IELTS as evidence of your English abilities for your visa application.
+
+      With IELTS you can be confident that you are taking a test that is trusted by institutions and organisations throughout New Zealand.
+       In fact, all universities, colleges and professional associations in New Zealand that have set minimum language requirements to accept IELTS. 
+  </p>
+<h3 class="head" style="font-size: 300%;">
+  What score do you need?
+</h3>
+<p style="font-size: 200%" class="muth">
+  The IELTS score you need depends on the requirements of your visa and the organisation where you plan to study or work.
+
+Different visas require different IELTS results – find out the test results required for your visa to New Zealand.
+
+You have a choice of two test types – IELTS Academic or IELTS General Training – depending on the requirements set by the organisation where you plan to work or study.
+
+You can find out who accepts IELTS and check the score required by your organisation or institution.
+</p>
+<h4 class="head" style="font-size: 300%;">
+  Find a test date
+</h4>
+<p style="font-size: 200%" class="muth">
+  There are 16 test locations in New Zealand. Many of them are conveniently located in educational institutions.
+</p>
+<h5 class="head" style="font-size: 300%;">
+  Prepare for your test</h5>
+<p style="font-size: 200%" class="muth">
+  Preparing for your test is an important part of the process. We have developed a range of free resources to help you improve your English language skills, including the Information for Candidates booklet <a href="{% static "newzea.pdf" %}" class="kulli"> (open pdf)</a> sample questions, and the Official IELTS Practice Materials. These include samples of past Listening, Reading, Writing and Speaking sections, complete with sample answers and examiner comments. 
+Practice materials are also available for purchase from local test centres.
+</p>
+
+  </div>
+    
+
+
+</body>
+<!-- this for footer-->
+<!-- this for footer-->
+<span id="contact" class="about">
+  <style>
+    body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+   *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+  /*background-color: #24262b;*/
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(15, 2, 2, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #f00c0c;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  </style>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+          
+            <li><a href="/payment">payment options</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <i><a href="https://twitter.com/teamssd3"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
+            <i><a href="https://instagram.com/teamssd2022?igshid=YmMyMTA2M2Y="><i ><ion-icon name="logo-instagram"></ion-icon></i></a>
+            <i><a href="https://www.youtube.com/channel/UCyHp9t86PBwqiUSDS1r-GyQ"><i ><ion-icon name="logo-youtube"></ion-icon>
+            </i></a>
+            <i><a href="https://www.facebook.com/profile.php?id=100085360034154"><i ><ion-icon name="logo-facebook"></ion-icon>
+            </i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+  </footer>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usa</title>
+  <link rel="icon"href="{% static 'favicon.ico' %}">
+    
+   <style>
+    
+
+body {
+  background-image: url({% static "america.png"%});
+   
+    
+}
+.main{
+    color:purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+   </style>
+    </head>
+    <body>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <img  src="{% static 'ielts3.png' %}" width="196px">
+    <div style="background:rgba(0,0,0,0.7)">
+      <h1  align="center" style="font-size:500%;" class="main">About IELTS USA</h1>
+        
+        <p style="font-size:200%;" class="para">IELTS USA is a registered 501(c)3 non-for-profit organization that champions the use of IELTS among US educational institutions that use the test for admission and other purposes. IELTS USA oversees the delivery of IELTS tests in the United States. 
+
+        </p>
+        <h1 style="font-size:300%;" class="head">Mission statement</h1>
+        <p style="font-size:200%;" class="para">  To support individuals and organizations within the United States in evaluating English language proficiency through high-stakes testing for the purpose of education, employment, professional accreditation and global mobility.</p>
+        <h1 style="font-size:300%;" :red" class="head"> Vision</h1>
+        <p style="font-size:200%;" class="para"> To establish IELTS as the premier high-stakes test of English language in the United States through quality service and support to test takers, teachers, researchers, recognizing organizations, professional associations, test centers and global partners.</p>
+        <h1 style="font-size:300%;" :red" class="head"> Values</h1>
+        <p style="font-size:200%;" class="para">IELTS USA values quality, integrity, commitment to excellence, partnership and service demonstrated through all actions, communication and business conduct.</p>
+        <h1 style="font-size:300%;" red"class="head"> IELTS USA departments</h1>
+        <h3 style="font-size:300%;" red" class="head"> Higher Education</h3>
+        <p style="font-size:200%;" class="para"> The US higher education team provides support to educational institutions and organizations that accept IELTS in the USA. This aim is achieved through on-campus professional development sessions, stakeholder workshops, presentations, webinars, and individual consultative services.
+
+            For more information, you can view a list of contact details for the US Higher Education Team
+            
+            Contact the IELTS USA higher education team: stakeholders@ieltsusa.org.</p>
+            <h3 style="font-size:300%;" :red" class="head"> Marketing</h3>
+            <p style="font-size:200%;" class="para">The US marketing team increases brand awareness among institutions and test takers across the United States. 
+
+                Communication is delivered via conferences, events, social media, public relations, advertising, and email marketing campaigns.
+                
+                The team also develops and maintains strategic partnerships that boost IELTS USA awareness at an organizational level. The aim is to further expand our reach to potential test takers across the USA.
+                
+                Contact the the IELTS USA marketing team</p>
+                <h3 style="font-size:300%;" :red" class="head"> Test Center Network</h3>
+                <p style="font-size:200%;" class="para">The US test center operations team ensures the high quality and secure administration of IELTS testing throughout the United States. This is delivered through annual training and auditing of US test center staff.
+
+                    The team also works to expand IELTS accessibility across the US by growing the test network to meet increased demand.
+                    
+                    If your organization is based in the United States and you’re interested in becoming an official IELTS test center in the USA.Contact the IELTS USA test center operations team: testcenters@ieltsusa.org.</p>
+                    <h3 style="font-size:300%;" :red" class="head"> Operations</h3>
+                    <p style="font-size:200%;" class="para"> The US operations team supports business operations and reports to the IELTS Board of Directors.
+
+                        Contact the IELTS USA operations team </p>
+
+    </div>
+        
+        
+    </body>
+    <!-- this for footer-->
+<!-- this for footer-->
+<span id="contact" class="about">
+  <style>
+    body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+   *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+  /*background-color: #24262b;*/
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(15, 2, 2, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #f00c0c;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  </style>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+          
+            <li><a href="/payment">payment options</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <i><a href="https://twitter.com/teamssd3"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
+            <i><a href="https://instagram.com/teamssd2022?igshid=YmMyMTA2M2Y="><i ><ion-icon name="logo-instagram"></ion-icon></i></a>
+            <i><a href="https://www.youtube.com/channel/UCyHp9t86PBwqiUSDS1r-GyQ"><i ><ion-icon name="logo-youtube"></ion-icon>
+            </i></a>
+            <i><a href="https://www.facebook.com/profile.php?id=100085360034154"><i ><ion-icon name="logo-facebook"></ion-icon>
+            </i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+  </footer>
+</html>
